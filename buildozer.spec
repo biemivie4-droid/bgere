@@ -9,7 +9,9 @@ requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
 android.archs = arm64-v8a
-
+android.ndk = 25b
+android.api = 33
+android.ndk_api = 24
 [buildozer]
 log_level = 2
 warn_on_root = 1
